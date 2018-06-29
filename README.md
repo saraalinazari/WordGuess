@@ -10,9 +10,9 @@
 - Type 'node index.js' in console.
 - It asks you if you want to start the game, Y/N?
 - As this application has educational purposes and to make it easier for test, it cheats and shows you the word to play between bunch of stars(*), as you can see below: 
-![Image of word]('screenshots/screen2.png')
+![Image of word](https://github.com/saraalinazari/WordGuess/blob/master/screenshots/screen2.png?raw=true)
 - Each time when user type a  character, it shows the character in the right place if the gues was right. If guess is not right, then shows you are wrong. The number of guesses is limited and if when user has equal or less than 10 guesses left, app shows the number of guesses left.
-![Image of word]('screenshots/screen1.png')
+![Image of word](https://github.com/saraalinazari/WordGuess/blob/master/screenshots/screen1.png?raw=true)
 
 ## Technologies Used
 - Node.js

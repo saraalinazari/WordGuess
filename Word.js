@@ -9,12 +9,11 @@ var Word = function(underlyingWord,tempWord,charInput){
     this.length = this.underlyingWord.length;
     this.generateArray = function(){
         var i=0;
-        //tconsole.log("tempWord"+tempWord);
+        
         for(i=0;i<this.length;i++){
             this.tempUnderWordArr.push(this.underlyingWord.charAt(i));
             this.tempWordArr.push(this.tempWord.charAt(i));
-            // console.log("this.tempUnderWordArr"+this.tempUnderWordArr);
-            // console.log("this.tempWordArr"+this.tempWordArr);
+            
         }
         
     };
@@ -32,7 +31,7 @@ var Word = function(underlyingWord,tempWord,charInput){
     };
     this.covertToStr= function(){
         var tempStr ="";
-      //  console.log("this.tempWordArr"+this.tempWordArr);
+     
         tempStr=this.tempWordArr.join("");
         return tempStr;
     };
@@ -47,16 +46,13 @@ var Word = function(underlyingWord,tempWord,charInput){
         Word1.generateArray();
         Word1.makeWord();
         var temp=Word1.covertToStr();
-        //console.log(temp);
+      
         return temp;
     }
-    // this.wordGuess= function(char){
-    //    return Letter.guess(char);
-
-    // }
+   
 
 
 module.exports= {
-  //  Word: Word,
+  
     showWord:showWord
 } 
